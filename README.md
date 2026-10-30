@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Application Performance Monitoring (APM) and full-stack observability market is estimated at **$10.3B-$11.9B in 2026** and projected to exceed **$25B+ by the early 2030s** (~11-15% CAGR), accelerated by cloud-native microservices and AI-driven telemetry. The sector is **moderately fragmented**: while tier-1 enterprise wallet share is heavily consolidated among a few dominant full-stack platform leaders (Datadog, Cisco/Splunk, Dynatrace), the open-source emergence of OpenTelemetry has democratized instrumentation, fueling a fragmented landscape of specialized point solutions and cost-optimized log/metric alternatives that prevent a winner-take-all monopoly.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Datadog](https://www.datadoghq.com/)**
-
-  **Unified observability platform** with APM, infrastructure monitoring, logs, and 800+ integrations. **Pricing**: Per-host and per-metric pricing; quote-based for enterprise. **Free tier**: Limited free tier available. **Best for**: teams wanting the broadest integration ecosystem and a single platform for all telemetry signals.
-
-
-
-- **[New Relic](https://newrelic.com/)**
-
-  **Observability platform** with APM, infrastructure, and browser monitoring. **Pricing**: Usage-based pricing with free tier (100 GB/month). **Free tier**: Yes, limited data ingest. **Best for**: developers wanting a mature APM with transparent usage-based pricing.
-
-
-
-- **[Dynatrace](https://www.dynatrace.com/)**
-
-  **AI-powered observability** with automatic discovery, distributed tracing, and root cause analysis (Davis AI). **Pricing**: Quote-only; host-based and consumption models. **Free tier**: Trial available. **Best for**: enterprises wanting AI-driven root cause analysis and automatic topology discovery.
-
-
-
-- **[AppDynamics](https://www.appdynamics.com/)** (Cisco)
-
-  **Application performance monitoring** with business transaction tracking and infrastructure visibility. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises with complex application landscapes needing deep transaction tracing.
-
-
-
-- **[Grafana Cloud](https://grafana.com/)**
-
-  **Managed observability platform** with Grafana, Prometheus, Loki, and Tempo. **Pricing**: Free tier; usage-based paid plans. **Free tier**: Yes, generous free tier. **Best for**: teams already using Grafana wanting managed metrics, logs, and traces without operating infrastructure.
-
-
-
-- **[LogicMonitor](https://www.logicmonitor.com/)**
-
-  **Infrastructure monitoring** with automated discovery and hybrid cloud coverage. **Pricing**: Quote-only. **Free tier**: None. **Best for**: IT operations teams needing broad infrastructure coverage across on-premise and cloud.
-
-
-
-- **[SolarWinds](https://www.solarwinds.com/)**
-
-  **IT monitoring suite** with network, server, and application monitoring. **Pricing**: Quote-only. **Free tier**: Limited free tools. **Best for**: IT teams wanting a broad monitoring suite from a traditional enterprise vendor.
-
-
-
-- **[Site24x7](https://www.site24x7.com/)** (Zoho)
-
-  **Cloud monitoring** with website, server, and application monitoring. **Pricing**: Tiered per-monitor pricing; free tier for limited monitors. **Free tier**: Yes, limited. **Best for**: SMBs wanting affordable monitoring across websites and infrastructure.
-
-
-
-- **[Elastic Observability](https://www.elastic.co/observability)**
-
-  **Observability within the Elastic Stack** with logs, metrics, and APM. **Pricing**: Tiered by resource usage; quote-based. **Free tier**: Basic free tier. **Best for**: organizations already using Elasticsearch wanting unified logs and APM.
-
-
-
-- **[Atlassian Monitoring](https://www.atlassian.com/)**
-
-  **Monitoring integrations** within Atlassian ecosystem (Statuspage, Opsgenie). **Pricing**: Included with Atlassian products; quote-based. **Free tier**: Limited. **Best for**: Atlassian-centric teams wanting status pages and incident management alongside monitoring.
-
-
+| Company / Product | Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Trial | Best For |
+|---|---|---|---|---|
+| **[AppDynamics](https://www.appdynamics.com/)** *(Cisco Systems)* | **~$413B Market Cap** *(Parent Cisco; ~$54B annual revenue)* | **$6 / vCPU / month** (Infrastructure Monitoring Edition; APM starts at $33/month, billed annually) | **30-day free trial** (Full Pro access; converts to Lite mode limited to 1 agent/language & 24h data retention) | Enterprises with complex hybrid application landscapes needing deep transaction tracing and Cisco ecosystem support. |
+| **[Datadog](https://www.datadoghq.com/)** | **~$95B-$100B Market Cap** *(NASDAQ: DDOG; ~$2.7B+ ARR)* | **$15 / host / month** (Infrastructure Pro, billed annually; $18 month-to-month; APM from $31/host/mo) | **Free tier up to 5 hosts** (1-day metric retention); or **14-day free trial** with full feature access | Teams wanting the broadest integration ecosystem (800+ integrations) and a single platform for all telemetry signals. |
+| **[Atlassian Monitoring / Opsgenie](https://www.atlassian.com/)** | **~$52B-$55B Market Cap** *(NASDAQ: TEAM; ~$4.4B annual revenue)* | **$9.45 / user / month** (Opsgenie Essentials; or Jira Service Management Standard at $22.05/agent/mo) | **Free forever plan up to 5 users** (basic alerting & on-call); or **14-day free trial** for higher plans | Atlassian-centric teams wanting tightly coupled incident management, on-call alerting, and status pages. |
+| **[Dynatrace](https://www.dynatrace.com/)** | **~$17B-$18.5B Market Cap** *(NYSE: DT; ~$1.5B+ annual revenue)* | **$0.01 / host-hour** (~$7/month per host for Foundation; Infrastructure at $0.04/hr, Full-Stack APM from $0.01/GiB-RAM/hr) | **15-day free trial** (Full platform evaluation; data retained 30 days post-expiration; also preloaded sandbox playground) | Enterprises wanting automated topology discovery and deterministic, AI-driven root cause analysis (Davis AI). |
+| **[Site24x7](https://www.site24x7.com/)** *(Zoho Corporation)* | **~$12.5B Valuation** *(Parent Zoho; ~$1.5B annual revenue)* | **$9 / month** (Starter/Lite plan billed annually; $10 month-to-month for up to 10 basic monitors) | **Free forever plan up to 50 website monitors** (5-minute polling interval, 1 status page, email alerts); or **30-day free trial** for full APM | SMBs, startups, and webmasters wanting an affordable, feature-packed monitoring suite across websites and servers. |
+| **[Elastic Observability](https://www.elastic.co/observability)** | **~$10.5B Market Cap** *(NYSE: ESTC; ~$1.4B annual revenue)* | **$95 / month** (Elastic Cloud Hosted Standard; or Serverless usage-based starting at ~$0.07/GB ingested) | **14-day free trial** (Elastic Cloud hosted & serverless; 30-day grace period post-trial, no credit card required) | Organizations already invested in Elasticsearch looking for unified search-powered log analytics and APM. |
+| **[Grafana Cloud](https://grafana.com/)** *(Grafana Labs)* | **$9B Valuation** *(Series E; ~$600M+ ARR)* | **$19 / month** (Grafana Cloud Pro base platform fee, includes 3 users, 10k metric series, 50 GB logs/traces) | **Free forever plan: 10,000 active metric series, 50 GB logs, 50 GB traces, 3 users**, 14-day data retention | Engineering teams already using Grafana wanting managed Prometheus, Loki, and Tempo without managing infrastructure. |
+| **[New Relic](https://newrelic.com/)** | **$6.5B Valuation** *(Acquired by Francisco Partners & TPG)* | **$10 / month** for 1st full platform user + usage ($0.40/GB ingested beyond free allowance; $99/mo for additional users) | **Free forever plan: 100 GB/month data ingest**, 1 full platform user, unlimited basic users | Developers wanting transparent usage-based billing with full-stack APM, infrastructure, and browser tracing. |
+| **[SolarWinds Observability](https://www.solarwinds.com/)** | **~$3.2B Valuation** *(Turn/River Capital take-private; ~$780M revenue)* | **$15.75 / node / month** (Network & Infrastructure Observability SaaS module; Application Observability from $27.50/service/mo) | **30-day free trial** (Full hybrid-IT visibility including traces, metrics, logs, and APM; no credit card required) | Enterprise IT teams wanting hybrid infrastructure, network, and system monitoring from an established vendor. |
+| **[LogicMonitor](https://www.logicmonitor.com/)** | **$2.4B Valuation** *(Vista Equity / PSG; ~$400M ARR)* | **$16 / hybrid unit / month** (Essentials tier; Advanced tier at $27/hybrid unit/mo, metered by monitored resource) | **15-day free trial** (Full platform access across Essentials/Advanced tiers for non-production environments) | IT operations and MSP teams needing automated hybrid cloud discovery and multi-tenant infrastructure coverage. |
 
 ## Open-Source GitHub Projects
 
