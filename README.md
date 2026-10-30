@@ -1,55 +1,62 @@
-# Awesome-Application-System-Monitoring
+# Awesome Application & System Monitoring 🚀
 
-# Awesome-Application-System-Monitoring
+<div align="center">
 
-**Top Application System Monitoring (Opensource) 🌟 Star if you like it! 🌟**
+<img src="assets/banner.svg" alt="Awesome Application &amp; System Monitoring Banner" width="100%" />
 
+<br/><br/>
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Application-System-Monitoring?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Application-System-Monitoring?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Application-System-Monitoring?style=flat-square&color=green" alt="Open Issues"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License"/></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<br/>
 
-*Focused on APM, Infrastructure Metrics, Distributed Tracing, Log Management & Unified Observability*
+**A curated list of elite Application Performance Monitoring (APM), Infrastructure Telemetry, Distributed Tracing, Log Analytics & Full-Stack Observability tools.**
 
-**Last updated: October 2026**
+*Focused on OpenTelemetry, Cloud-Native Systems, Kubernetes Diagnostics, and Real-Time Production Reliability.*
 
+🌟 **Star the repository if you find this guide valuable!** 🌟
 
+</div>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Application & System Monitoring**. These tools enable teams to observe application performance, track infrastructure health, correlate logs and traces, and alert on anomalies—from fully managed enterprise observability suites with AI-powered root cause analysis to self-hosted platforms built on OpenTelemetry that give teams complete control over their telemetry data and storage costs.
+---
 
+## 📑 Table of Contents
 
+- [🔭 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 Enterprise SaaS & Hosted Observability Platforms](#-enterprise-saas--hosted-observability-platforms)
+- [💻 Top Open-Source GitHub Projects](#-top-open-source-github-projects)
+- [🌟 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer & Guidance](#-disclaimer--guidance)
 
-**Examples** include Datadog, New Relic, Dynatrace, AppDynamics, Grafana Cloud, LogicMonitor, SolarWinds, Site24x7, Elastic Observability, and Atlassian Monitoring (the category leaders in commercial space).
+---
 
+## 🔭 Sector Overview & Market Dynamics
 
+The global Application Performance Monitoring (APM) and full-stack observability market is estimated at **$10.3B–$11.9B in 2026** and projected to exceed **$25B+ by the early 2030s** (~11–15% CAGR), accelerated by cloud-native microservices, containerization, and AI-driven telemetry. 
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted observability, APM, and open telemetry infrastructure. **Critical note**: The open-source observability space is mature—**SigNoz** and **Monitrix** are direct Datadog/New Relic alternatives, **Apache SkyWalking** handles massive-scale microservices tracing, and **Checkmate** covers uptime and infrastructure. However, no open-source project matches Datadog's 800+ integrations or Dynatrace's AI-driven root cause analysis out of the box.
+The sector is **moderately fragmented**:
+- **Consolidation at the Enterprise Core**: Tier-1 enterprise wallet share remains heavily concentrated among a few dominant full-stack platform leaders (**Datadog**, **Cisco AppDynamics / Splunk**, and **Dynatrace**) that offer turnkey, unified correlation across metrics, logs, traces, and automated root-cause analysis.
+- **Democratization via OpenTelemetry & Open-Source**: The industry-wide adoption of **OpenTelemetry (OTel)** has standardized telemetry data collection, ending proprietary agent lock-in. This enables high fragmentation across specialized storage backends (e.g., ClickHouse, VictoriaMetrics), open visualization layers (Grafana), and purpose-built uptime engines that prevent a total winner-take-all monopoly.
 
+---
 
+## 🏢 Enterprise SaaS & Hosted Observability Platforms
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+Comprehensive cloud platforms providing managed infrastructure, auto-instrumentation, and full-stack telemetry correlation. Sorted by parent company **Market Capitalization / Valuation (Descending)**:
 
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global Application Performance Monitoring (APM) and full-stack observability market is estimated at **$10.3B-$11.9B in 2026** and projected to exceed **$25B+ by the early 2030s** (~11-15% CAGR), accelerated by cloud-native microservices and AI-driven telemetry. The sector is **moderately fragmented**: while tier-1 enterprise wallet share is heavily consolidated among a few dominant full-stack platform leaders (Datadog, Cisco/Splunk, Dynatrace), the open-source emergence of OpenTelemetry has democratized instrumentation, fueling a fragmented landscape of specialized point solutions and cost-optimized log/metric alternatives that prevent a winner-take-all monopoly.
-
-## SaaS/Hosted Platforms
-
-| Company / Product | Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Trial | Best For |
+| Company / Product | Valuation / Revenue 💰 | Starting Pricing Tier 🏷️ | Free Tier Limits / Free Trial ⏳ | Best For 🎯 |
 |---|---|---|---|---|
 | **[AppDynamics](https://www.appdynamics.com/)** *(Cisco Systems)* | **~$413B Market Cap** *(Parent Cisco; ~$54B annual revenue)* | **$6 / vCPU / month** (Infrastructure Monitoring Edition; APM starts at $33/month, billed annually) | **30-day free trial** (Full Pro access; converts to Lite mode limited to 1 agent/language & 24h data retention) | Enterprises with complex hybrid application landscapes needing deep transaction tracing and Cisco ecosystem support. |
-| **[Datadog](https://www.datadoghq.com/)** | **~$95B-$100B Market Cap** *(NASDAQ: DDOG; ~$2.7B+ ARR)* | **$15 / host / month** (Infrastructure Pro, billed annually; $18 month-to-month; APM from $31/host/mo) | **Free tier up to 5 hosts** (1-day metric retention); or **14-day free trial** with full feature access | Teams wanting the broadest integration ecosystem (800+ integrations) and a single platform for all telemetry signals. |
-| **[Atlassian Monitoring / Opsgenie](https://www.atlassian.com/)** | **~$52B-$55B Market Cap** *(NASDAQ: TEAM; ~$4.4B annual revenue)* | **$9.45 / user / month** (Opsgenie Essentials; or Jira Service Management Standard at $22.05/agent/mo) | **Free forever plan up to 5 users** (basic alerting & on-call); or **14-day free trial** for higher plans | Atlassian-centric teams wanting tightly coupled incident management, on-call alerting, and status pages. |
-| **[Dynatrace](https://www.dynatrace.com/)** | **~$17B-$18.5B Market Cap** *(NYSE: DT; ~$1.5B+ annual revenue)* | **$0.01 / host-hour** (~$7/month per host for Foundation; Infrastructure at $0.04/hr, Full-Stack APM from $0.01/GiB-RAM/hr) | **15-day free trial** (Full platform evaluation; data retained 30 days post-expiration; also preloaded sandbox playground) | Enterprises wanting automated topology discovery and deterministic, AI-driven root cause analysis (Davis AI). |
+| **[Datadog](https://www.datadoghq.com/)** | **~$95B–$100B Market Cap** *(NASDAQ: DDOG; ~$2.7B+ ARR)* | **$15 / host / month** (Infrastructure Pro, billed annually; $18 month-to-month; APM from $31/host/mo) | **Free tier up to 5 hosts** (1-day metric retention); or **14-day free trial** with full feature access | Teams wanting the broadest integration ecosystem (800+ integrations) and a single platform for all telemetry signals. |
+| **[Atlassian Monitoring / Opsgenie](https://www.atlassian.com/)** | **~$52B–$55B Market Cap** *(NASDAQ: TEAM; ~$4.4B annual revenue)* | **$9.45 / user / month** (Opsgenie Essentials; or Jira Service Management Standard at $22.05/agent/mo) | **Free forever plan up to 5 users** (basic alerting & on-call); or **14-day free trial** for higher plans | Atlassian-centric teams wanting tightly coupled incident management, on-call alerting, and status pages. |
+| **[Dynatrace](https://www.dynatrace.com/)** | **~$17B–$18.5B Market Cap** *(NYSE: DT; ~$1.5B+ annual revenue)* | **$0.01 / host-hour** (~$7/month per host for Foundation; Infrastructure at $0.04/hr, Full-Stack APM from $0.01/GiB-RAM/hr) | **15-day free trial** (Full platform evaluation; data retained 30 days post-expiration; also preloaded sandbox playground) | Enterprises wanting automated topology discovery and deterministic, AI-driven root cause analysis (Davis AI). |
 | **[Site24x7](https://www.site24x7.com/)** *(Zoho Corporation)* | **~$12.5B Valuation** *(Parent Zoho; ~$1.5B annual revenue)* | **$9 / month** (Starter/Lite plan billed annually; $10 month-to-month for up to 10 basic monitors) | **Free forever plan up to 50 website monitors** (5-minute polling interval, 1 status page, email alerts); or **30-day free trial** for full APM | SMBs, startups, and webmasters wanting an affordable, feature-packed monitoring suite across websites and servers. |
 | **[Elastic Observability](https://www.elastic.co/observability)** | **~$10.5B Market Cap** *(NYSE: ESTC; ~$1.4B annual revenue)* | **$95 / month** (Elastic Cloud Hosted Standard; or Serverless usage-based starting at ~$0.07/GB ingested) | **14-day free trial** (Elastic Cloud hosted & serverless; 30-day grace period post-trial, no credit card required) | Organizations already invested in Elasticsearch looking for unified search-powered log analytics and APM. |
 | **[Grafana Cloud](https://grafana.com/)** *(Grafana Labs)* | **$9B Valuation** *(Series E; ~$600M+ ARR)* | **$19 / month** (Grafana Cloud Pro base platform fee, includes 3 users, 10k metric series, 50 GB logs/traces) | **Free forever plan: 10,000 active metric series, 50 GB logs, 50 GB traces, 3 users**, 14-day data retention | Engineering teams already using Grafana wanting managed Prometheus, Loki, and Tempo without managing infrastructure. |
@@ -57,112 +64,150 @@ The global Application Performance Monitoring (APM) and full-stack observability
 | **[SolarWinds Observability](https://www.solarwinds.com/)** | **~$3.2B Valuation** *(Turn/River Capital take-private; ~$780M revenue)* | **$15.75 / node / month** (Network & Infrastructure Observability SaaS module; Application Observability from $27.50/service/mo) | **30-day free trial** (Full hybrid-IT visibility including traces, metrics, logs, and APM; no credit card required) | Enterprise IT teams wanting hybrid infrastructure, network, and system monitoring from an established vendor. |
 | **[LogicMonitor](https://www.logicmonitor.com/)** | **$2.4B Valuation** *(Vista Equity / PSG; ~$400M ARR)* | **$16 / hybrid unit / month** (Essentials tier; Advanced tier at $27/hybrid unit/mo, metered by monitored resource) | **15-day free trial** (Full platform access across Essentials/Advanced tiers for non-production environments) | IT operations and MSP teams needing automated hybrid cloud discovery and multi-tenant infrastructure coverage. |
 
-## Open-Source GitHub Projects
-
-
-
-- **[SigNoz](https://github.com/SigNoz/signoz)**
-
-  **Open-source observability platform native to OpenTelemetry** (MIT for core) — **the most mature open-source Datadog/New Relic alternative**, with logs, metrics, and traces in a single application . **Features**: **APM** with p99 latency, error rate, Apdex, and operations per second; **logs management** using ClickHouse for fast search and query building; **distributed tracing** with Flamegraphs and Gantt charts; **metrics and dashboards** with DIY query builder, PromQL, and ClickHouse queries; **alerts** on any telemetry signal with anomaly detection; **exceptions monitoring** for Python, Java, Ruby, and JavaScript. Built on OpenTelemetry for vendor lock-in freedom; correlated logs, metrics, and traces for rich debugging context . **Tech stack**: Go, React, ClickHouse. **Deploy**: Self-hosted (Docker, Kubernetes Helm) or SigNoz Cloud. **Trade-off**: **Requires OpenTelemetry instrumentation**—not a drop-in agent like Datadog. ClickHouse is a hard dependency for storage. **Best for**: teams wanting a production-grade, OpenTelemetry-native observability platform they can self-host or use as a managed service—without per-host Datadog pricing.
-
-
-
-- **[Monitrix](https://github.com/ezeslucky/monitrix)**
-
-  **Open-source observability platform native to OpenTelemetry** (license per repo) — **a direct SigNoz alternative with the same architecture and feature set** . **Features**: APM with out-of-box charts (p99 latency, error rate, Apdex, operations per second); centralized log management on ClickHouse; distributed tracing with Flamegraphs and Gantt charts; metrics and dashboards with query builder; alerts with anomaly detection; exceptions monitoring for Python, Java, Ruby, and JavaScript. Built on OpenTelemetry; correlated logs, metrics, and traces . **Tech stack**: Go, React, ClickHouse. **Deploy**: Self-hosted. **Trade-off**: **Newer than SigNoz**—community validation and ecosystem maturity are still developing. Same OpenTelemetry instrumentation requirement. **Best for**: teams wanting a SigNoz-compatible alternative—**note**: SigNoz has significantly more community traction and production validation.
-
-
-
-- **[Apache SkyWalking](https://github.com/apache/skywalking)**
-
-  **APM system designed for microservices, cloud native, and container-based architectures** (Apache 2.0) — **the most battle-tested open-source APM for large-scale distributed systems** . **Features**: **End-to-end distributed tracing** with service topology analysis and APIs dashboards; **agents for your stack** (Java, .NET Core, PHP, NodeJS, Golang, LUA, Rust, C++, JavaScript, Python); **eBPF early adoption** with Rover agent for Kubernetes monitoring and CPU/network profiling; **scaling** to 100+ billion telemetry data points per cluster; **mature telemetry ecosystem support** (Zipkin, OpenTelemetry, Prometheus, Zabbix, Fluentd); **native APM database** (BanyanDB); **consistent metrics aggregation** across formats; **log management pipeline** with sampling policies; **alerting** with service/deployment/API-centric rules; **AI/ML** for pattern recognition and anomaly detection . **Tech stack**: Java, BanyanDB. **Deploy**: Self-hosted. **Trade-off**: **Java-centric ecosystem**—while it supports many languages, the core platform and tooling are Java-oriented. Configuration complexity for large deployments. **Best for**: enterprises with microservices architectures needing proven APM at massive scale—especially Java-heavy environments.
-
-
-
-- **[Checkmate](https://github.com/bluewave-labs/Checkmate)**
-
-  **Self-hosted monitoring for server hardware, uptime, response times, and incidents** (license per repo) — **the most focused open-source infrastructure monitoring tool** with beautiful visualizations . **Features**: **Website monitoring**; **memory, disk, CPU, and temperature monitoring**; ping monitoring; **Docker monitoring** (local socket or remote daemon with TLS); page speed monitoring; incident tracking; email notifications; scheduled maintenance. Uses Capture to get data from remote servers—no agents needed beyond the Checkmate server itself for uptime and page speed . **Tech stack**: Per repository. **Deploy**: Self-hosted (Docker Compose). **Trade-off**: **Infrastructure and uptime focused**—not APM or distributed tracing. No log management or application-level performance insights. **Best for**: sysadmins and DevOps teams wanting a self-hosted uptime and server health dashboard without the complexity of full observability platforms.
-
-
-
-- **[CheckCle](https://github.com/operacle/checkcle)**
-
-  **Self-hosted full-stack monitoring platform** (MIT) — **a broader infrastructure monitoring alternative to Checkmate** . **Features**: **Uptime services** (HTTP, DNS, Ping, TCP, API); **distributed regional monitoring**; incident history (UP/DOWN/WARNING/PAUSE); **SSL and domain monitoring**; **infrastructure server monitoring** (Linux/Windows with CPU, RAM, disk, network via one-line agent); **public status pages**; notifications via email, Telegram, Discord, Slack, Matrix; reports and analytics; multi-language and themes . **Tech stack**: Per repository. **Deploy**: Self-hosted (Docker Compose, Docker run). **Trade-off**: **Infrastructure monitoring, not APM**—no tracing, log management, or application performance metrics. **Best for**: teams wanting a comprehensive self-hosted uptime and infrastructure monitoring platform with status pages and multi-channel alerts.
-
-
-
-- **[Apache Zipkin](https://github.com/openzipkin/zipkin)**
-
-  **Distributed tracing system** (Apache 2.0) — **the original open-source tracing system, now OpenTelemetry-compatible** . **Features**: **Distributed trace collection** with B3 propagation; **trace query and visualization** via web UI and REST API; **service dependency graph** generation; **multiple storage backends** (Cassandra, Elasticsearch, MySQL); **OpenTelemetry compatible** (accepts OTLP/Zipkin spans); B3 propagation headers . **Tech stack**: Java. **Deploy**: Self-hosted. **Trade-off**: **Tracing only**—no metrics, logs, or APM. Requires separate tooling for full observability. **Best for**: teams wanting a focused, proven distributed tracing backend—especially those already instrumented with Zipkin or OpenTelemetry tracing.
-
-
-
-- **[Pandora FMS](https://github.com/pandorafms/pandorafms)**
-
-  **General-purpose monitoring software for servers, applications, and networks** (license per repo, active since 2004) — **a mature, comprehensive open-source monitoring suite** . **Features**: Integrates monitoring of networks, applications, servers, web, and specific data sources (logs, WMI, Netflow, SNMP traps) in one application . **Tech stack**: PHP. **Deploy**: Self-hosted. **Trade-off**: **Traditional monitoring approach**—less cloud-native and OpenTelemetry-oriented than SigNoz or SkyWalking. UI and architecture are older. **Best for**: organizations wanting a proven, broad monitoring suite for mixed infrastructure—especially those with legacy on-premise systems.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **LogTide** — Privacy-first log management (Alpha, AGPL per repository). Lightweight TimescaleDB/Fastify stack, GDPR-friendly, Docker setup in 5 minutes. **Note**: **Logs only**—no metrics or traces. Alpha stability . **Best for**: European SMBs or teams wanting lightweight, self-hosted log management without Elasticsearch complexity.
-
-- **Superlog** — Agentic telemetry system (Apache 2.0). Ingests traces, logs, and metrics; groups signals into incidents; local-first with ClickHouse queries. **Note**: **Early-stage open-core**—community edition is free, cloud edition paid. **Best for**: teams wanting AI-assisted incident grouping on OpenTelemetry data.
-
-- **LME (Logging Made Easy)** — CISA-backed log collection platform (free, open source). Elasticsearch, Kibana, Wazuh, Fleet for threat detection and alerting. **Note**: **Security/logging focus**—for threat detection, not application performance monitoring . **Best for**: small to medium organizations wanting centralized logging for security.
-
-
-
-**Frameworks for building custom systems**: Combine **SigNoz** as the primary APM and observability layer with **Checkmate** or **CheckCle** for uptime and infrastructure monitoring, **Apache SkyWalking** for large-scale microservices tracing, and **LogTide** for lightweight log management—creating a complete open-source monitoring stack. **None of these match Datadog's integration breadth or Dynatrace's AI-driven root cause analysis**; those require commercial platforms or significant custom tooling.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Monitoring platforms handling infrastructure credentials and application telemetry must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for observability data.
-
-- **The "unified observability platform" vs. "focused APM" vs. "infrastructure monitoring" distinction is critical.** **Datadog, New Relic, Dynatrace, AppDynamics, Grafana Cloud, LogicMonitor, SolarWinds, Site24x7, and Elastic Observability** are **commercial platforms** with varying depth across APM, infrastructure, and logs. **SigNoz and Monitrix** are **open-source unified observability platforms**—logs, metrics, and traces in one application, built on OpenTelemetry . **Apache SkyWalking** is **APM-focused** for microservices—tracing and metrics, not logs . **Checkmate and CheckCle** are **infrastructure and uptime monitoring**—server health and availability, not application performance . **Choose based on whether you need full observability, application tracing, or infrastructure health.**
-
-- **SigNoz is the most mature open-source Datadog/New Relic alternative** with production validation, ClickHouse-backed storage, and a cloud option . **Monitrix** appears to be a newer project with a nearly identical feature set—**SigNoz has significantly more community traction and should be the default choice** unless you have a specific reason to choose otherwise.
-
-- **Apache SkyWalking is the proven choice for large-scale microservices APM**—100+ billion telemetry data points per cluster, agents for 10+ languages, and eBPF support . **The trade-off**: Java-centric architecture and configuration complexity.
-
-- **Checkmate and CheckCle serve a different need**—uptime and server health, not application performance. **They are complementary to SigNoz, not replacements.** Choose Checkmate for a focused, beautiful uptime dashboard; choose CheckCle for broader infrastructure coverage with status pages and multi-channel alerts.
-
-- **Pricing opacity varies.** Datadog, New Relic, and Grafana Cloud publish tiered pricing. Dynatrace, AppDynamics, LogicMonitor, SolarWinds, Elastic (enterprise), and Atlassian require sales contact. SigNoz offers a free self-hosted option and cloud plans. **Validate with direct vendor conversations against your host count and telemetry volume.**
-
-- Self-hosted open-source solutions require proper infrastructure (ClickHouse for SigNoz, storage backends for Zipkin/SkyWalking), OpenTelemetry instrumentation, and ongoing maintenance. **Observability data may contain sensitive application details**—ensure your deployment meets your organization's security and privacy requirements before ingesting production telemetry.
-
-
+---
+
+## 💻 Top Open-Source GitHub Projects
+
+Leading open-source projects for self-hosted observability, APM, distributed tracing, metrics, and system monitoring. Sorted by **GitHub Star Count (Descending)** with dynamic live star badges linked directly to each project's stargazers page:
+
+- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)
+  - 🛠️ **Focus**: Self-hosted uptime, ping, HTTP(s), DNS, Docker monitoring & incident status pages.
+  - 📜 **License**: MIT
+  - ⚡ **Features**: Real-time response timing graphs, multi-region ping, 90+ notification dispatchers (Telegram, Discord, Slack, Webhooks), certificate monitoring, and responsive public status pages.
+  - 🎯 **Best for**: SREs and DevOps teams wanting a lightweight, self-hosted status dashboard and uptime monitor without infrastructure overhead.
+
+- **[Netdata](https://github.com/netdata/netdata)** [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
+  - 🛠️ **Focus**: Real-time per-second infrastructure monitoring and automated diagnostics.
+  - 📜 **License**: GPL-3.0
+  - ⚡ **Features**: Zero-configuration per-second metric streaming, hundreds of auto-detected integrations (CPU, RAM, disks, network, containers, databases), machine-learning anomaly detection, and embedded web dashboards.
+  - 🎯 **Best for**: Immediate high-resolution system performance troubleshooting across bare-metal servers, VMs, and IoT devices.
+
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
+  - 🛠️ **Focus**: Open and composable observability and analytics visualization platform.
+  - 📜 **License**: AGPL-3.0
+  - ⚡ **Features**: Industry-standard data visualization engine connecting to Prometheus, Loki, Tempo, OpenTelemetry, Elasticsearch, PostgreSQL, and InfluxDB with rich dashboards, alerting, and plugins.
+  - 🎯 **Best for**: Teams seeking a central pane of glass for all operational metrics, logs, and distributed traces.
+
+- **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)
+  - 🛠️ **Focus**: Time-series database, metrics collection engine, and alerting system (CNCF Graduated).
+  - 📜 **License**: Apache-2.0
+  - ⚡ **Features**: Multi-dimensional data model with metric names and key/value pairs, powerful PromQL query language, efficient pull-based telemetry collection via HTTP scraping, and Alertmanager routing.
+  - 🎯 **Best for**: Kubernetes monitoring and cloud-native systems requiring standardized, robust service metrics.
+
+- **[Glances](https://github.com/nicolargo/glances)** [![GitHub stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)
+  - 🛠️ **Focus**: Cross-platform curses-based system monitoring tool with CLI, Web UI, and API modes.
+  - 📜 **License**: LGPL-3.0
+  - ⚡ **Features**: Monitors CPU, memory, load, processes, disk I/O, network interfaces, sensors, and Docker containers; dynamically scales output to fit terminal dimensions; provides REST/XML-RPC endpoints.
+  - 🎯 **Best for**: Developers and sysadmins seeking a quick, zero-friction `top`/`htop` alternative with a built-in browser interface.
+
+- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
+  - 🛠️ **Focus**: OpenTelemetry-native full-stack APM and observability platform.
+  - 📜 **License**: MIT / Non-commercial enterprise modules
+  - ⚡ **Features**: Out-of-the-box APM metrics (p99 latency, error rate, throughput), ClickHouse-backed blazing-fast log management, distributed tracing with flamegraphs, PromQL support, and exception monitoring.
+  - 🎯 **Best for**: Teams seeking a modern, production-ready, open-source alternative to Datadog and New Relic without per-host licensing fees.
+
+- **[Apache SkyWalking](https://github.com/apache/skywalking)** [![GitHub stars](https://img.shields.io/github/stars/apache/skywalking?style=social&color=white)](https://github.com/apache/skywalking/stargazers)
+  - 🛠️ **Focus**: Application Performance Monitoring (APM) and observability analysis for distributed microservices.
+  - 📜 **License**: Apache-2.0
+  - ⚡ **Features**: Multi-language auto-instrumentation agents (Java, .NET, Node.js, Go, Python, PHP, C++), eBPF-powered network and CPU profiling (Rover), service topology mapping, BanyanDB native storage, and 100B+ telemetry data point scale.
+  - 🎯 **Best for**: Large enterprises running complex, multi-language microservices and Kubernetes clusters at massive scale.
+
+- **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)
+  - 🛠️ **Focus**: CNCF-graduated distributed tracing platform.
+  - 📜 **License**: Apache-2.0
+  - ⚡ **Features**: High-throughput distributed context propagation, transaction monitoring, service dependency analysis, root-cause diagnostics, and OpenTelemetry OTLP trace ingestion.
+  - 🎯 **Best for**: Diagnosing distributed microservice latencies, bottlenecks, and complex RPC inter-service requests.
+
+- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
+  - 🛠️ **Focus**: High-performance, cost-effective time-series database and monitoring solution.
+  - 📜 **License**: Apache-2.0
+  - ⚡ **Features**: Drop-in replacement for Prometheus with full PromQL/MetricsQL compatibility, 10x lower RAM/disk footprint, extreme compression, high write throughput, and long-term storage scaling.
+  - 🎯 **Best for**: Teams struggling with Prometheus resource consumption and seeking high-scale long-term metrics storage.
+
+- **[Apache Zipkin](https://github.com/openzipkin/zipkin)** [![GitHub stars](https://img.shields.io/github/stars/openzipkin/zipkin?style=social&color=white)](https://github.com/openzipkin/zipkin/stargazers)
+  - 🛠️ **Focus**: Lightweight distributed tracing system and latency diagnosis framework.
+  - 📜 **License**: Apache-2.0
+  - ⚡ **Features**: Trace collection and lookups, B3 propagation compatibility, OpenTelemetry span ingestion, service dependency graphing, and pluggable backends (Cassandra, Elasticsearch, MySQL).
+  - 🎯 **Best for**: Teams needing a proven, lightweight tracing backend that integrates easily into existing architectures.
+
+- **[Checkmate](https://github.com/bluewave-labs/Checkmate)** [![GitHub stars](https://img.shields.io/github/stars/bluewave-labs/Checkmate?style=social&color=white)](https://github.com/bluewave-labs/Checkmate/stargazers)
+  - 🛠️ **Focus**: Self-hosted server hardware, uptime, response time, and incident tracker.
+  - 📜 **License**: AGPL-3.0
+  - ⚡ **Features**: Sleek UI dashboards, CPU/RAM/disk/temperature telemetry, Docker container health, SSL verification, ping metrics, and email alerting.
+  - 🎯 **Best for**: Sysadmins wanting an elegant, visual server health and uptime monitor without heavy observability infrastructure.
+
+- **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
+  - 🛠️ **Focus**: Vendor-neutral proxy and telemetry processing pipeline for traces, metrics, and logs.
+  - 📜 **License**: Apache-2.0
+  - ⚡ **Features**: Ingests, batches, filters, transforms, and exports telemetry in OTLP, Prometheus, Zipkin, Jaeger, and proprietary formats; eliminates vendor lock-in.
+  - 🎯 **Best for**: Any modern observability architecture wishing to route telemetry simultaneously to multiple backends.
+
+- **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)
+  - 🛠️ **Focus**: Enterprise-grade distributed monitoring platform for network devices, servers, and clouds.
+  - 📜 **License**: AGPL-3.0
+  - ⚡ **Features**: Agent and agentless data collection (SNMP, IPMI, JMX), multi-tenant monitoring, flexible trigger definitions, SLA reporting, and high scalability across thousands of nodes.
+  - 🎯 **Best for**: Enterprise network operations centers (NOC) and hybrid enterprise IT infrastructure.
+
+- **[CheckCle](https://github.com/operacle/checkcle)** [![GitHub stars](https://img.shields.io/github/stars/operacle/checkcle?style=social&color=white)](https://github.com/operacle/checkcle/stargazers)
+  - 🛠️ **Focus**: Self-hosted full-stack monitoring and regional uptime platform.
+  - 📜 **License**: MIT
+  - ⚡ **Features**: Distributed HTTP, DNS, Ping, and TCP checks; SSL expiry alerts; one-line agent for Linux/Windows host telemetry (CPU, RAM, storage); public status pages; multi-channel alerts (Slack, Discord, Telegram, Matrix).
+  - 🎯 **Best for**: Web engineering teams needing comprehensive uptime tracking with public status pages and server metric integration.
+
+- **[Pandora FMS](https://github.com/pandorafms/pandorafms)** [![GitHub stars](https://img.shields.io/github/stars/pandorafms/pandorafms?style=social&color=white)](https://github.com/pandorafms/pandorafms/stargazers)
+  - 🛠️ **Focus**: All-in-one general-purpose monitoring software for networks, servers, and applications.
+  - 📜 **License**: GPL-2.0 / Open Project
+  - ⚡ **Features**: Comprehensive monitoring of heterogeneous environments, WMI, NetFlow, SNMP traps, log collection, and reporting within a unified console.
+  - 🎯 **Best for**: Mixed legacy and modern environments seeking broad infrastructure coverage in a single suite.
+
+- **[Monitrix](https://github.com/ezeslucky/monitrix)** [![GitHub stars](https://img.shields.io/github/stars/ezeslucky/monitrix?style=social&color=white)](https://github.com/ezeslucky/monitrix/stargazers)
+  - 🛠️ **Focus**: OpenTelemetry-native open-source APM and observability platform.
+  - 📜 **License**: AGPL-3.0
+  - ⚡ **Features**: APM dashboarding (p99 latency, Apdex, error rates), distributed tracing with flamegraphs, ClickHouse log management, and OpenTelemetry instrumentation compatibility.
+  - 🎯 **Best for**: Developers exploring newer lightweight, OpenTelemetry-first APM alternatives.
 
 ---
 
+## 🌟 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Application-System-Monitoring&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Application-System-Monitoring&type=date&legend=top-left)
 
-**Made for developers, SREs, and organizations building transparent application and system monitoring solutions.**
+---
 
-Let's make Application & System Monitoring more open, data-driven, and cost-effective.
+## 🤝 How to Contribute
+
+Contributions to expand and update this curated list are very welcome! 
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-monitoring-tool`).
+3. ✍️ **Add or refine an entry** in `README.md` keeping descriptions factual, concise, and adhering to the table or open-source list format.
+4. 🚀 **Commit your changes** (`git commit -m "Add ToolName (category)"`).
+5. 📬 **Submit a Pull Request** with a clear explanation of why the tool belongs in this list.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and utilizing **Awesome-Application-System-Monitoring**! If this curated guide helps your engineering team choose the right observability and APM stack, please consider supporting the project:
+
+- 🌟 **Star the repository** to boost visibility for the developer community.
+- 🍴 **Fork and share** the project with DevOps, SRE, and platform engineers.
+- ☕ **Buy a coffee & sponsor ongoing maintenance** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support enables continuous tracking, benchmarking, and updates across the rapidly evolving observability landscape!
+
+---
+
+## ⚖️ Disclaimer & Guidance
+
+- **Community-Curated**: This repository is maintained as a community resource and does not represent an endorsement of any commercial platform or vendor.
+- **Architectural Scope**: Choosing between full-stack observability suites (Datadog, Dynatrace, SigNoz), distributed tracing backends (Jaeger, Zipkin), time-series metrics engines (Prometheus, VictoriaMetrics), and uptime diagnostics (Uptime Kuma, CheckCle) depends on whether you require unified APM correlation, deep microservice tracing, or server availability.
+- **Data Privacy & Compliance**: Monitoring systems ingest production telemetry that may contain sensitive user parameters or infrastructure secrets. Ensure that your log filtering, masking, and OpenTelemetry collector processors adhere to strict privacy policies (GDPR, HIPAA, CCPA) prior to production deployment.
+
+---
+
+<div align="center">
+
+**Built with ❤️ for developers, DevOps engineers, and SREs architecting high-reliability systems.**
+
+</div>

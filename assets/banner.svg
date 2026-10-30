@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(30, 41, 59, 0.7)"/>
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0.8)"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="emerald-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyber-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(148, 163, 184, 0.05)" stroke-width="1"/>
+    </pattern>
+
+    <!-- Glowing Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .stat-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      fill: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .stat-value {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      fill: #f1f5f9;
+    }
+
+    /* Ambient dynamic animations in the background / decorative area */
+    @keyframes pulse-wave {
+      0% { stroke-dashoffset: 600; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes float-orb {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.25; }
+      50% { transform: translateY(-15px) scale(1.08); opacity: 0.45; }
+    }
+    @keyframes beam-sweep {
+      0% { transform: translateX(-100px); opacity: 0; }
+      50% { opacity: 0.6; }
+      100% { transform: translateX(1200px); opacity: 0; }
+    }
+    @keyframes live-blink {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.85); }
+    }
+
+    .telemetry-line {
+      stroke-dasharray: 200;
+      animation: pulse-wave 8s linear infinite;
+    }
+    .orb-1 {
+      animation: float-orb 7s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .orb-2 {
+      animation: float-orb 9s ease-in-out infinite 2s;
+      transform-origin: center;
+    }
+    .live-dot {
+      animation: live-blink 2s ease-in-out infinite;
+      transform-origin: center;
+    }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)"/>
+  <rect width="1200" height="420" rx="16" fill="url(#cyber-grid)"/>
+
+  <!-- Subtle Ambient Glowing Orbs in Background -->
+  <g class="orb-1">
+    <circle cx="200" cy="80" r="160" fill="#38bdf8" filter="url(#glow)" opacity="0.12"/>
+  </g>
+  <g class="orb-2">
+    <circle cx="1020" cy="300" r="180" fill="#a855f7" filter="url(#glow)" opacity="0.12"/>
+  </g>
+  <circle cx="600" cy="380" r="140" fill="#10b981" filter="url(#glow)" opacity="0.08"/>
+
+  <!-- Decorative Telemetry Waves (in background lower layer) -->
+  <g opacity="0.35">
+    <path class="telemetry-line" d="M 0 340 Q 150 290 300 330 T 600 310 T 900 350 T 1200 320" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <path class="telemetry-line" d="M 0 360 Q 200 390 400 340 T 800 370 T 1200 330" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="8 6"/>
+  </g>
+
+  <!-- Top Decorative Header Status -->
+  <g transform="translate(60, 48)">
+    <rect width="140" height="28" rx="14" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+    <circle class="live-dot" cx="16" cy="14" r="4.5" fill="#10b981"/>
+    <text x="30" y="19" class="pill-text" fill="#34d399">SYSTEM STATUS: LIVE</text>
+  </g>
+
+  <g transform="translate(1000, 48)">
+    <rect width="140" height="28" rx="14" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1"/>
+    <text x="70" y="19" class="pill-text" fill="#38bdf8" text-anchor="middle">OCTOBER 2026 EDITION</text>
+  </g>
+
+  <!-- FOREGROUND: Main Title and Tagline (Always high contrast and crisp) -->
+  <g transform="translate(60, 140)">
+    <text class="title-text" fill="#ffffff">Awesome <tspan fill="url(#primary-grad)">Application &amp; System Monitoring</tspan></text>
+    <text x="0" y="44" class="subtitle-text">Curated full-stack observability platforms, APM, distributed tracing, metrics &amp; log engines</text>
+  </g>
+
+  <!-- Feature Telemetry Badges / Category Pills -->
+  <g transform="translate(60, 232)">
+    <!-- Pill 1: APM & Metrics -->
+    <g transform="translate(0, 0)">
+      <rect width="170" height="38" rx="8" fill="url(#card-grad)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+      <circle cx="20" cy="19" r="4" fill="#38bdf8"/>
+      <text x="34" y="24" class="pill-text" fill="#e2e8f0">APM &amp; Metrics</text>
+    </g>
+
+    <!-- Pill 2: Distributed Tracing -->
+    <g transform="translate(185, 0)">
+      <rect width="190" height="38" rx="8" fill="url(#card-grad)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1"/>
+      <circle cx="20" cy="19" r="4" fill="#818cf8"/>
+      <text x="34" y="24" class="pill-text" fill="#e2e8f0">Distributed Tracing</text>
+    </g>
+
+    <!-- Pill 3: Log Analytics -->
+    <g transform="translate(390, 0)">
+      <rect width="160" height="38" rx="8" fill="url(#card-grad)" stroke="rgba(192, 132, 252, 0.3)" stroke-width="1"/>
+      <circle cx="20" cy="19" r="4" fill="#c084fc"/>
+      <text x="34" y="24" class="pill-text" fill="#e2e8f0">Log Analytics</text>
+    </g>
+
+    <!-- Pill 4: OpenTelemetry Native -->
+    <g transform="translate(565, 0)">
+      <rect width="195" height="38" rx="8" fill="url(#card-grad)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+      <circle cx="20" cy="19" r="4" fill="#10b981"/>
+      <text x="34" y="24" class="pill-text" fill="#34d399">OpenTelemetry Native</text>
+    </g>
+
+    <!-- Pill 5: Uptime & Infra -->
+    <g transform="translate(775, 0)">
+      <rect width="180" height="38" rx="8" fill="url(#card-grad)" stroke="rgba(251, 146, 60, 0.3)" stroke-width="1"/>
+      <circle cx="20" cy="19" r="4" fill="#fb923c"/>
+      <text x="34" y="24" class="pill-text" fill="#fdba74">Uptime &amp; Infrastructure</text>
+    </g>
+  </g>
+
+  <!-- Metrics Ticker Bar at Bottom -->
+  <g transform="translate(60, 312)">
+    <rect width="1080" height="64" rx="10" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(148, 163, 184, 0.15)" stroke-width="1"/>
+    
+    <!-- Stat 1 -->
+    <g transform="translate(30, 18)">
+      <text x="0" y="10" class="stat-label">Market Scope</text>
+      <text x="0" y="32" class="stat-value">$11.9B+ Sector Analysis</text>
+    </g>
+    
+    <line x1="260" y1="16" x2="260" y2="48" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1"/>
+
+    <!-- Stat 2 -->
+    <g transform="translate(290, 18)">
+      <text x="0" y="10" class="stat-label">Telemetry Coverage</text>
+      <text x="0" y="32" class="stat-value">Metrics • Traces • Logs • Synthetics</text>
+    </g>
+
+    <line x1="620" y1="16" x2="620" y2="48" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1"/>
+
+    <!-- Stat 3 -->
+    <g transform="translate(650, 18)">
+      <text x="0" y="10" class="stat-label">Ecosystem</text>
+      <text x="0" y="32" class="stat-value">SaaS Leaders &amp; Open-Source Repos</text>
+    </g>
+
+    <line x1="940" y1="16" x2="940" y2="48" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1"/>
+
+    <!-- Stat 4 -->
+    <g transform="translate(970, 18)">
+      <text x="0" y="10" class="stat-label">License &amp; Freedom</text>
+      <text x="0" y="32" class="stat-value">100% Vendor Neutral</text>
+    </g>
+  </g>
+
+  <!-- Border Highlight -->
+  <rect width="1200" height="420" rx="16" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5"/>
+</svg>
