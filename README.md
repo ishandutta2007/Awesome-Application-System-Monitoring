@@ -7,7 +7,7 @@
 <br/><br/>
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Application-System-Monitoring?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Application-System-Monitoring?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Application-System-Monitoring?style=flat-square&color=blue" alt="GitHub Forks"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Application-System-Monitoring?style=flat-square&color=green" alt="Open Issues"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Application-System-Monitoring/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License"/></a>
@@ -68,99 +68,99 @@ Comprehensive cloud platforms providing managed infrastructure, auto-instrumenta
 
 ## 💻 Top Open-Source GitHub Projects
 
-Leading open-source projects for self-hosted observability, APM, distributed tracing, metrics, and system monitoring. Sorted by **GitHub Star Count (Descending)** with dynamic live star badges linked directly to each project's stargazers page:
+Leading open-source projects for self-hosted observability, APM, distributed tracing, metrics, and system monitoring. Sorted by **GitHub Stars_Count (Descending)** with dynamic live Stars_Badges linked directly to each project's stargazers page:
 
-- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)
+- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub_Stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)
   - 🛠️ **Focus**: Self-hosted uptime, ping, HTTP(s), DNS, Docker monitoring & incident status pages.
   - 📜 **License**: MIT
   - ⚡ **Features**: Real-time response timing graphs, multi-region ping, 90+ notification dispatchers (Telegram, Discord, Slack, Webhooks), certificate monitoring, and responsive public status pages.
   - 🎯 **Best for**: SREs and DevOps teams wanting a lightweight, self-hosted status dashboard and uptime monitor without infrastructure overhead.
 
-- **[Netdata](https://github.com/netdata/netdata)** [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
+- **[Netdata](https://github.com/netdata/netdata)** [![GitHub_Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
   - 🛠️ **Focus**: Real-time per-second infrastructure monitoring and automated diagnostics.
   - 📜 **License**: GPL-3.0
   - ⚡ **Features**: Zero-configuration per-second metric streaming, hundreds of auto-detected integrations (CPU, RAM, disks, network, containers, databases), machine-learning anomaly detection, and embedded web dashboards.
   - 🎯 **Best for**: Immediate high-resolution system performance troubleshooting across bare-metal servers, VMs, and IoT devices.
 
-- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
   - 🛠️ **Focus**: Open and composable observability and analytics visualization platform.
   - 📜 **License**: AGPL-3.0
   - ⚡ **Features**: Industry-standard data visualization engine connecting to Prometheus, Loki, Tempo, OpenTelemetry, Elasticsearch, PostgreSQL, and InfluxDB with rich dashboards, alerting, and plugins.
   - 🎯 **Best for**: Teams seeking a central pane of glass for all operational metrics, logs, and distributed traces.
 
-- **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)
+- **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)
   - 🛠️ **Focus**: Time-series database, metrics collection engine, and alerting system (CNCF Graduated).
   - 📜 **License**: Apache-2.0
   - ⚡ **Features**: Multi-dimensional data model with metric names and key/value pairs, powerful PromQL query language, efficient pull-based telemetry collection via HTTP scraping, and Alertmanager routing.
   - 🎯 **Best for**: Kubernetes monitoring and cloud-native systems requiring standardized, robust service metrics.
 
-- **[Glances](https://github.com/nicolargo/glances)** [![GitHub stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)
+- **[Glances](https://github.com/nicolargo/glances)** [![GitHub_Stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)
   - 🛠️ **Focus**: Cross-platform curses-based system monitoring tool with CLI, Web UI, and API modes.
   - 📜 **License**: LGPL-3.0
   - ⚡ **Features**: Monitors CPU, memory, load, processes, disk I/O, network interfaces, sensors, and Docker containers; dynamically scales output to fit terminal dimensions; provides REST/XML-RPC endpoints.
   - 🎯 **Best for**: Developers and sysadmins seeking a quick, zero-friction `top`/`htop` alternative with a built-in browser interface.
 
-- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
+- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
   - 🛠️ **Focus**: OpenTelemetry-native full-stack APM and observability platform.
   - 📜 **License**: MIT / Non-commercial enterprise modules
   - ⚡ **Features**: Out-of-the-box APM metrics (p99 latency, error rate, throughput), ClickHouse-backed blazing-fast log management, distributed tracing with flamegraphs, PromQL support, and exception monitoring.
   - 🎯 **Best for**: Teams seeking a modern, production-ready, open-source alternative to Datadog and New Relic without per-host licensing fees.
 
-- **[Apache SkyWalking](https://github.com/apache/skywalking)** [![GitHub stars](https://img.shields.io/github/stars/apache/skywalking?style=social&color=white)](https://github.com/apache/skywalking/stargazers)
+- **[Apache SkyWalking](https://github.com/apache/skywalking)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/skywalking?style=social&color=white)](https://github.com/apache/skywalking/stargazers)
   - 🛠️ **Focus**: Application Performance Monitoring (APM) and observability analysis for distributed microservices.
   - 📜 **License**: Apache-2.0
   - ⚡ **Features**: Multi-language auto-instrumentation agents (Java, .NET, Node.js, Go, Python, PHP, C++), eBPF-powered network and CPU profiling (Rover), service topology mapping, BanyanDB native storage, and 100B+ telemetry data point scale.
   - 🎯 **Best for**: Large enterprises running complex, multi-language microservices and Kubernetes clusters at massive scale.
 
-- **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)
+- **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub_Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)
   - 🛠️ **Focus**: CNCF-graduated distributed tracing platform.
   - 📜 **License**: Apache-2.0
   - ⚡ **Features**: High-throughput distributed context propagation, transaction monitoring, service dependency analysis, root-cause diagnostics, and OpenTelemetry OTLP trace ingestion.
   - 🎯 **Best for**: Diagnosing distributed microservice latencies, bottlenecks, and complex RPC inter-service requests.
 
-- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
+- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub_Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
   - 🛠️ **Focus**: High-performance, cost-effective time-series database and monitoring solution.
   - 📜 **License**: Apache-2.0
   - ⚡ **Features**: Drop-in replacement for Prometheus with full PromQL/MetricsQL compatibility, 10x lower RAM/disk footprint, extreme compression, high write throughput, and long-term storage scaling.
   - 🎯 **Best for**: Teams struggling with Prometheus resource consumption and seeking high-scale long-term metrics storage.
 
-- **[Apache Zipkin](https://github.com/openzipkin/zipkin)** [![GitHub stars](https://img.shields.io/github/stars/openzipkin/zipkin?style=social&color=white)](https://github.com/openzipkin/zipkin/stargazers)
+- **[Apache Zipkin](https://github.com/openzipkin/zipkin)** [![GitHub_Stars](https://img.shields.io/github/stars/openzipkin/zipkin?style=social&color=white)](https://github.com/openzipkin/zipkin/stargazers)
   - 🛠️ **Focus**: Lightweight distributed tracing system and latency diagnosis framework.
   - 📜 **License**: Apache-2.0
   - ⚡ **Features**: Trace collection and lookups, B3 propagation compatibility, OpenTelemetry span ingestion, service dependency graphing, and pluggable backends (Cassandra, Elasticsearch, MySQL).
   - 🎯 **Best for**: Teams needing a proven, lightweight tracing backend that integrates easily into existing architectures.
 
-- **[Checkmate](https://github.com/bluewave-labs/Checkmate)** [![GitHub stars](https://img.shields.io/github/stars/bluewave-labs/Checkmate?style=social&color=white)](https://github.com/bluewave-labs/Checkmate/stargazers)
+- **[Checkmate](https://github.com/bluewave-labs/Checkmate)** [![GitHub_Stars](https://img.shields.io/github/stars/bluewave-labs/Checkmate?style=social&color=white)](https://github.com/bluewave-labs/Checkmate/stargazers)
   - 🛠️ **Focus**: Self-hosted server hardware, uptime, response time, and incident tracker.
   - 📜 **License**: AGPL-3.0
   - ⚡ **Features**: Sleek UI dashboards, CPU/RAM/disk/temperature telemetry, Docker container health, SSL verification, ping metrics, and email alerting.
   - 🎯 **Best for**: Sysadmins wanting an elegant, visual server health and uptime monitor without heavy observability infrastructure.
 
-- **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
+- **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
   - 🛠️ **Focus**: Vendor-neutral proxy and telemetry processing pipeline for traces, metrics, and logs.
   - 📜 **License**: Apache-2.0
   - ⚡ **Features**: Ingests, batches, filters, transforms, and exports telemetry in OTLP, Prometheus, Zipkin, Jaeger, and proprietary formats; eliminates vendor lock-in.
   - 🎯 **Best for**: Any modern observability architecture wishing to route telemetry simultaneously to multiple backends.
 
-- **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)
+- **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub_Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)
   - 🛠️ **Focus**: Enterprise-grade distributed monitoring platform for network devices, servers, and clouds.
   - 📜 **License**: AGPL-3.0
   - ⚡ **Features**: Agent and agentless data collection (SNMP, IPMI, JMX), multi-tenant monitoring, flexible trigger definitions, SLA reporting, and high scalability across thousands of nodes.
   - 🎯 **Best for**: Enterprise network operations centers (NOC) and hybrid enterprise IT infrastructure.
 
-- **[CheckCle](https://github.com/operacle/checkcle)** [![GitHub stars](https://img.shields.io/github/stars/operacle/checkcle?style=social&color=white)](https://github.com/operacle/checkcle/stargazers)
+- **[CheckCle](https://github.com/operacle/checkcle)** [![GitHub_Stars](https://img.shields.io/github/stars/operacle/checkcle?style=social&color=white)](https://github.com/operacle/checkcle/stargazers)
   - 🛠️ **Focus**: Self-hosted full-stack monitoring and regional uptime platform.
   - 📜 **License**: MIT
   - ⚡ **Features**: Distributed HTTP, DNS, Ping, and TCP checks; SSL expiry alerts; one-line agent for Linux/Windows host telemetry (CPU, RAM, storage); public status pages; multi-channel alerts (Slack, Discord, Telegram, Matrix).
   - 🎯 **Best for**: Web engineering teams needing comprehensive uptime tracking with public status pages and server metric integration.
 
-- **[Pandora FMS](https://github.com/pandorafms/pandorafms)** [![GitHub stars](https://img.shields.io/github/stars/pandorafms/pandorafms?style=social&color=white)](https://github.com/pandorafms/pandorafms/stargazers)
+- **[Pandora FMS](https://github.com/pandorafms/pandorafms)** [![GitHub_Stars](https://img.shields.io/github/stars/pandorafms/pandorafms?style=social&color=white)](https://github.com/pandorafms/pandorafms/stargazers)
   - 🛠️ **Focus**: All-in-one general-purpose monitoring software for networks, servers, and applications.
   - 📜 **License**: GPL-2.0 / Open Project
   - ⚡ **Features**: Comprehensive monitoring of heterogeneous environments, WMI, NetFlow, SNMP traps, log collection, and reporting within a unified console.
   - 🎯 **Best for**: Mixed legacy and modern environments seeking broad infrastructure coverage in a single suite.
 
-- **[Monitrix](https://github.com/ezeslucky/monitrix)** [![GitHub stars](https://img.shields.io/github/stars/ezeslucky/monitrix?style=social&color=white)](https://github.com/ezeslucky/monitrix/stargazers)
+- **[Monitrix](https://github.com/ezeslucky/monitrix)** [![GitHub_Stars](https://img.shields.io/github/stars/ezeslucky/monitrix?style=social&color=white)](https://github.com/ezeslucky/monitrix/stargazers)
   - 🛠️ **Focus**: OpenTelemetry-native open-source APM and observability platform.
   - 📜 **License**: AGPL-3.0
   - ⚡ **Features**: APM dashboarding (p99 latency, Apdex, error rates), distributed tracing with flamegraphs, ClickHouse log management, and OpenTelemetry instrumentation compatibility.
